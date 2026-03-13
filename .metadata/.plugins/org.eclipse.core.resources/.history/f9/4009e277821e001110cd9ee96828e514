@@ -1,0 +1,21 @@
+package com.kh.run;
+
+import com.kh.variable.Variable;
+
+public class Run {
+	
+	
+
+	public static void main(String[] args) {
+		//클래스 외부에 있는 메소드를 호출하기 위해선
+		//클래스의 이름 v = new 클래스 이름
+		Variable V = new Variable();
+		V.savePants();
+		System.out.println(행거);
+		
+		
+		//다른 패키지에 있는 클래스를 사용하기 위해서
+
+	}
+
+}
