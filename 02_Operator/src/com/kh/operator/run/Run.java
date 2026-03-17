@@ -15,6 +15,8 @@ public class Run {
 //		oc.logical();
 //		oc.andOper();
 //		oc.range();
-		oc.orOper();
+//		oc.orOper();
+		oc.triple();
+		
 	}
 }

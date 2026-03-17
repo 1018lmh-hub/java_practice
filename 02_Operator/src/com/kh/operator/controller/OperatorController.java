@@ -63,6 +63,7 @@ public class OperatorController {
 
 		int result = candies / students;
 		int mod = candies % students;
+		sca.close();
 
 //		System.out.println("학생 한명당 받을 수 있는 사탕의 개수 : " + (candies/students));
 //		System.out.println("남은 사탕의 개수 : " + candies%students);
@@ -255,14 +256,84 @@ public class OperatorController {
 				
 				
 			}
+			
+			//삼항 if switch for, for문 객체지항 hard 
+			
 			/*
 			 * 삼항 연산자 : 피 연산자가 3개
 			 * => 3개의 값과 1개의 연산자로 구성됨(조건문의 형식으로 쓰임)
 			 * 
 			 * [ 표현식 ]
 			 * 조건식? 조선식이 true일 경우 결과값: 조건식이 false일 경우 결과값
+			 * 
+			 * 조건문 : 값에 따라 연산을 처리하는 방식
+			 * 			결과값이 true일 경우 첫 번째 문장을 처리~~
+			 * 			결과값이 false일 경우 두 번째 문장을 처리~~
+			 * 
+			 * 
+			 * 
 			 */
 			
+			// 치킨
+			public void triple() {
+				System.out.println("깐부치킨에 오신 것을 환영합니다!");
+				System.out.println("1. 회장님의 입맛 그대로 AI치킨");
+				System.out.println("2. 바삭한 식스팩 치킨");
+				System.out.println("3. 치킨의 근본 후라이드 치킨");
+				
+				// ctrl + shift + o (import 자동완성 단축키, import java.util.Scanner;)
+				Scanner sca = new Scanner(System.in);
+				
+				System.out.print("메뉴 번호를 입력해주세요 > ");
+				int menuNo = sca.nextInt();
+				// 계획
+				// 사용자가 메뉴번호로
+				// 1번을 입력하면 회장님의 입맛 그대로 AI치킨을 주문하셨습니다.
+				// 2번을 입력하면 바삭한 식스팩 치킨을 주문하셨습니다.
+				// 3번을 입력하면 치킨의 근본 후라이드 치킨을 주문하셨습니다.
+				// 라고 출력
+				// 1번, 2번, 3번이 아니면 없는 메뉴를 주문하셨습니다.
+				// 라고 출력
+//				System.out.println(menuNo);
+				
+				String selected = menuNo == 1 ? "회장님의 입맛 그대로 AI치킨을 주문하셨습니다."
+								: menuNo == 2 ? "빠싺한 식스팩 치킨을 주문하셨습니다." 
+								: menuNo == 3 ? "치킨의 근본 후라이드 치킨을 주문하셨습니다."
+								: "없는 메뉴를 주문하셨습니다.";
+				
+				
+				
+				System.out.println(selected);
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+//				if (menuNo == 1) {
+//					System.out.println("회장님의 입맛 그대로 AI치킨을 주문하셨습니다.");
+//				}
+//				else if (menuNo == 2) {
+//					System.out.println("바삭한 식스팩 치킨을 주문하셨습니다.");
+//				}
+//				else if (menuNo == 3) {
+//					System.out.println("치킨의 근본 후라이드 치킨을 주문하셨습니다.");
+//				}
+//				else { 
+//					System.out.println("없는 메뉴를 주문하셨습니다.");
+//				}
+//				
+//				
+				
+			}
+			
+			/*
+			 * 
+			 */
 			
 			
 			
