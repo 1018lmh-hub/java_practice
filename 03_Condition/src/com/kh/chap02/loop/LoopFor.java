@@ -1,5 +1,9 @@
 package com.kh.chap02.loop;
 
+import java.util.Scanner;
+
+import com.kh.chap01.condition.ConditionIf;
+
 public class LoopFor {
 
 	/*
@@ -64,4 +68,63 @@ public class LoopFor {
 		}
 		
 	}
+	
+	public void method3() {
+		System.out.print("1부터 100까지의 수 중에 2의 배수는");
+		for (int i = 2; i <= 100; i *= 2) {
+			System.out.print(i + " ");
+		}
+		System.out.print("이다");
+		
+	}
+	
+	
+	public void gugudan() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("*구구단을 외자*");
+		System.out.print("몇 단을 출력하시겠습니까 >");
+		int dan = sc.nextInt();
+		System.out.println(dan + "단을 출력하겠습니다.");
+		for (int i = 2; i <= 9; i++) {
+//			System.out.println(dan + " X " + i + " = " + dan*i) ;
+			System.out.printf("\n%d X %d = %d\n", dan, i, dan*i);
+		}
+		
+	}
+	// 어떻게든 완성~ 문법에 매몰되지 말기, 결과물을 생각하고 기획, 설계 / 어떤 변수로 어떤 연산을 할 지
+	
+	public void mainMenu() {
+		
+		for(;;) {
+			
+			System.out.println("★메인메뉴입니다☆");
+			System.out.println("1. 구구단 놀이 시작하기");
+			System.out.println("2. O/X 퀴즈 시작하기");
+			System.out.println("3. 프로그램 종료하기");
+			
+			Scanner sc = new Scanner(System.in);
+			int menuNo = sc.nextInt();
+			sc.nextLine();
+//			System.out.println(menuNo);
+			
+			if(menuNo == 1) {
+				gugudan();
+			} else if(menuNo == 2) {
+				ConditionIf ci = new ConditionIf();
+				ci.quiz();
+			} else if(menuNo == 3) {
+				System.out.println("프로그램을 종료합니다");
+				return;
+			} else {
+				System.out.println("없는 메뉴를 선택하셨습니다~");
+			}
+			System.out.println();
+			//변수 조건문 반복문은 어느 프로그래밍 언어에서나 똑같다
+			
+			
+		}
+	}
+	
+	
 }
