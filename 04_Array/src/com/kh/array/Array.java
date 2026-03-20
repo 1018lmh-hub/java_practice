@@ -74,6 +74,12 @@ public class Array {
 		 * 배열은 참조 자료형이다.
 		 * (참조 변수 지역 변수 인스턴스 변수-- 또 뭐더라)
 		 * 
+		 * 근데 그러면 
+		 * System.out.println(nums[]);
+		 * 라고 해야 주솟값이 나와야하는 거 아닌가 왜
+		 * System.out.println(nums);
+		 * 라고 해야하는 거지
+		 * 
 		 */
 		//nunms라는 정수형 배열을 선언하고 2칸 할당받음
 		int[] nums = new int[2];
@@ -305,9 +311,9 @@ public class Array {
 		int[] copy2 = new int [10];
 		
 		//네이밍컨벤션 == 클래스 / 인터페이스 == 첫글자가 대문자
-		System.arraycopy(origin, 0, copy2, 0, 3);
+		System.arraycopy(origin, 0, copy2, 1, 3);
 		System.out.println(Arrays.toString(copy2));
-		// arraycopy(원본배열명, 원본에서 복사 시작할 인덱스, 카피배열명, 카피배열에서 복사될 인덱스, 복사요소개수)
+		// arraycopy(원본배열명, 원본에서 복사 시작할 인덱스, 카피배열명, 카피배열에서 복사될(복사 시작 지점) 인덱스, 복사요소개수)
 		
 		int[] copy3 =Arrays.copyOf(origin, 15);
 		System.out.println(Arrays.toString(copy3));

@@ -13,7 +13,7 @@ public class Run {
 //		array.method0();
 //		array.method4();
 //		array.method5();
-//		array.method6();
+		array.method6();
 		array.method7();
 		
 	}
