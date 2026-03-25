@@ -29,6 +29,8 @@ public class AosGame extends Game {
 	// Alt + Shift + s -> r -> Alt + a -> Alt + r
 	// getter setter
 
+	
+	//스티커 메모 해놓기
 	public int getCharacterCount() {
 		return characterCount;
 	}

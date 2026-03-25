@@ -10,4 +10,7 @@
     <fullyQualifiedTypeName name="com.kh.chap07.model.view.TicketView"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.kh.chap01.medel.vo.AosGame"/>
+    <fullyQualifiedTypeName name="com.kh.chap03.model.vo.MainChef"/>
+    <fullyQualifiedTypeName name="com.kh.chap03.model.vo.SaladChef"/>
+    <fullyQualifiedTypeName name="com.kh.chap03.model.vo.Chef"/>
 </qualifiedTypeNameHistroy>
