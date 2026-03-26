@@ -12,9 +12,9 @@ public class NateWebtoonVer2 extends Webtoon {
 		// TODO Auto-generated constructor stub
 	}
 
-	public String toString() {
-		return "NateWebtoon [title=" + title + ", author=" + author + "]";
-	}
+//	public String toString() {
+//		return "NateWebtoon [title=" + title + ", author=" + author + "]";
+//	}
 
 	
 	
