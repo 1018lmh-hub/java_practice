@@ -46,6 +46,9 @@ public class Run {
 		CheckedException ce = new CheckedException();
 		ce.readString();
 		
+		
+		
+		
 	}
 
 }
@@ -59,5 +62,13 @@ public class Run {
  * 		기능이 여러개			|		기능이 한개
  */
 
+
+// 자바를 공부할 때 무언갈 만드는 것이 참 좋다
+// 그냥 주변에 보이는 걸 막 만들라고 하면 막연하니
+// 어떻게 만들 지 생각을 해야한다.
+// 요구사항 식으로 생각하면 편하다. ~~ 해주시고요. ~~필요해요 ..
+
+// Run main,  패키지 controller, service, view, VO, 		인터페이스(얘는 클래스인가?) interface
+// 각각 왜 분리하는 지 어떤 것들이 들어가야하는 지 등등 생각해보고 찾아보기
 
 

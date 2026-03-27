@@ -19,4 +19,6 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.kh.controller.CheckedException"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="com.kh.sw.util.SwitchUtilImpl"/>
 </qualifiedTypeNameHistroy>

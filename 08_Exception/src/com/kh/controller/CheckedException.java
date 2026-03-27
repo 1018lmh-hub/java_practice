@@ -49,6 +49,7 @@ public class CheckedException {
 		throw new RuntimeException("예외발생!!!"); // throw : 사용자가 예외를 발생시키는 코드
 	}
 	
+//	
 	
 
 }
